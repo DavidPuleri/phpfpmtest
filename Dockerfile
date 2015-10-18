@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY deploy/vhost.conf /etc/nginx/nginx.conf
+COPY deploy/vhost.conf /etc/nginx/conf.d/default.conf
 
 COPY . /workspace
 
